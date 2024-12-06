@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ブログ投稿ページ</title>
+</head>
+<body>
+    <h1>ブログ投稿ページ</h1>
+    <form action="/blog/create" method="POST">
+        タイトル：<input type="text" name="title" placeholder="title"><br>
+        要約：<input type="text" name="summary" placeholder="summary"><br>
+        イメージ：<input type="text" name="image" placeholder="/image1.jpg"><br>
+        本文：<textarea name="textBody" rows="15" placeholder="本文"></textarea><br>
+        <button type="submit">投稿</button>
+    </form>
+    
+</body>
+</html>
